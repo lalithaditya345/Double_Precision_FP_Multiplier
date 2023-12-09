@@ -1,0 +1,866 @@
+$date
+	Sun Dec 10 02:18:15 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main $end
+$var reg 1 ! CLK $end
+$var reg 1 " RST $end
+$var reg 32 # cycle [31:0] $end
+$var reg 1 $ do_cycles $end
+$var reg 1 % do_fsdb $end
+$var reg 1 & do_fst $end
+$var reg 1 ' do_vcd $end
+$var reg 2048 ( filename [2048:1] $end
+$scope module top $end
+$var wire 1 ) CAN_FIRE_RL_rl_finish $end
+$var wire 1 * CAN_FIRE_RL_rl_go $end
+$var wire 1 ! CLK $end
+$var wire 1 " RST_N $end
+$var wire 1 + WILL_FIRE_RL_rl_finish $end
+$var wire 1 , WILL_FIRE_RL_rl_go $end
+$var wire 1 - \m$EN_get_res $end
+$var wire 1 . \m$EN_put_A $end
+$var wire 1 / \m$EN_put_B $end
+$var wire 64 0 \m$put_A_a_in [63:0] $end
+$var wire 64 1 \m$put_B_b_in [63:0] $end
+$var wire 64 2 \m$get_res [63:0] $end
+$var wire 1 3 \m$RDY_put_B $end
+$var wire 1 4 \m$RDY_put_A $end
+$var wire 1 5 \m$RDY_get_res $end
+$var reg 64 6 v__h152 [63:0] $end
+$scope module m $end
+$var wire 1 7 CAN_FIRE_RL_exponentNormalisation $end
+$var wire 1 8 CAN_FIRE_RL_finalResult $end
+$var wire 1 9 CAN_FIRE_RL_mantissaNormalisation $end
+$var wire 1 : CAN_FIRE_RL_preprocessing $end
+$var wire 1 ; CAN_FIRE_get_res $end
+$var wire 1 ! CLK $end
+$var wire 1 - EN_get_res $end
+$var wire 1 . EN_put_A $end
+$var wire 1 / EN_put_B $end
+$var wire 1 < NOT_mantissa_res_non_normalised_6_BIT_102_30_3_ETC___d240 $end
+$var wire 1 = NOT_mantissa_res_non_normalised_6_BIT_12_0_1_A_ETC___d330 $end
+$var wire 1 > NOT_mantissa_res_non_normalised_6_BIT_15_6_7_A_ETC___d327 $end
+$var wire 1 ? NOT_mantissa_res_non_normalised_6_BIT_18_2_3_A_ETC___d324 $end
+$var wire 1 @ NOT_mantissa_res_non_normalised_6_BIT_21_8_9_A_ETC___d321 $end
+$var wire 1 A NOT_mantissa_res_non_normalised_6_BIT_24_4_5_A_ETC___d318 $end
+$var wire 1 B NOT_mantissa_res_non_normalised_6_BIT_27_0_1_A_ETC___d315 $end
+$var wire 1 C NOT_mantissa_res_non_normalised_6_BIT_30_6_7_A_ETC___d312 $end
+$var wire 1 D NOT_mantissa_res_non_normalised_6_BIT_33_2_3_A_ETC___d309 $end
+$var wire 1 E NOT_mantissa_res_non_normalised_6_BIT_36_8_9_A_ETC___d306 $end
+$var wire 1 F NOT_mantissa_res_non_normalised_6_BIT_39_04_05_ETC___d303 $end
+$var wire 1 G NOT_mantissa_res_non_normalised_6_BIT_3_2_3_AN_ETC___d339 $end
+$var wire 1 H NOT_mantissa_res_non_normalised_6_BIT_42_10_11_ETC___d300 $end
+$var wire 1 I NOT_mantissa_res_non_normalised_6_BIT_45_16_17_ETC___d297 $end
+$var wire 1 J NOT_mantissa_res_non_normalised_6_BIT_48_22_23_ETC___d294 $end
+$var wire 1 K NOT_mantissa_res_non_normalised_6_BIT_51_28_29_ETC___d291 $end
+$var wire 1 L NOT_mantissa_res_non_normalised_6_BIT_54_34_35_ETC___d288 $end
+$var wire 1 M NOT_mantissa_res_non_normalised_6_BIT_57_40_41_ETC___d285 $end
+$var wire 1 N NOT_mantissa_res_non_normalised_6_BIT_60_46_47_ETC___d282 $end
+$var wire 1 O NOT_mantissa_res_non_normalised_6_BIT_63_52_53_ETC___d279 $end
+$var wire 1 P NOT_mantissa_res_non_normalised_6_BIT_66_58_59_ETC___d276 $end
+$var wire 1 Q NOT_mantissa_res_non_normalised_6_BIT_69_64_65_ETC___d273 $end
+$var wire 1 R NOT_mantissa_res_non_normalised_6_BIT_6_8_9_AN_ETC___d336 $end
+$var wire 1 S NOT_mantissa_res_non_normalised_6_BIT_72_70_71_ETC___d270 $end
+$var wire 1 T NOT_mantissa_res_non_normalised_6_BIT_75_76_77_ETC___d267 $end
+$var wire 1 U NOT_mantissa_res_non_normalised_6_BIT_78_82_83_ETC___d264 $end
+$var wire 1 V NOT_mantissa_res_non_normalised_6_BIT_81_88_89_ETC___d261 $end
+$var wire 1 W NOT_mantissa_res_non_normalised_6_BIT_84_94_95_ETC___d258 $end
+$var wire 1 X NOT_mantissa_res_non_normalised_6_BIT_87_00_01_ETC___d255 $end
+$var wire 1 Y NOT_mantissa_res_non_normalised_6_BIT_90_06_07_ETC___d252 $end
+$var wire 1 Z NOT_mantissa_res_non_normalised_6_BIT_93_12_13_ETC___d249 $end
+$var wire 1 [ NOT_mantissa_res_non_normalised_6_BIT_96_18_19_ETC___d246 $end
+$var wire 1 \ NOT_mantissa_res_non_normalised_6_BIT_99_24_25_ETC___d243 $end
+$var wire 1 ] NOT_mantissa_res_non_normalised_6_BIT_9_4_5_AN_ETC___d333 $end
+$var wire 1 5 RDY_get_res $end
+$var wire 1 " RST_N $end
+$var wire 1 ^ WILL_FIRE_RL_exponentNormalisation $end
+$var wire 1 _ WILL_FIRE_RL_finalResult $end
+$var wire 1 ` WILL_FIRE_RL_mantissaNormalisation $end
+$var wire 1 a WILL_FIRE_RL_preprocessing $end
+$var wire 1 b WILL_FIRE_get_res $end
+$var wire 1 c WILL_FIRE_put_A $end
+$var wire 1 d WILL_FIRE_put_B $end
+$var wire 1 e \answer$EN $end
+$var wire 1 f \exponent_res_normalised_1$EN $end
+$var wire 1 g \exponent_res_normalised_2$EN $end
+$var wire 11 h \exponent_res_normalised_3$D_IN [10:0] $end
+$var wire 1 i \exponent_res_normalised_3$EN $end
+$var wire 1 j \exponent_res_overbiased_1$EN $end
+$var wire 12 k \exponent_res_overbiased_2$D_IN [11:0] $end
+$var wire 1 l \exponent_res_overbiased_2$EN $end
+$var wire 64 m get_res [63:0] $end
+$var wire 1 n \got_A$D_IN $end
+$var wire 1 o \got_A$EN $end
+$var wire 1 p \got_B$D_IN $end
+$var wire 1 q \got_B$EN $end
+$var wire 1 r \got_final$D_IN $end
+$var wire 1 s \got_final$EN $end
+$var wire 64 t \input_1_64$D_IN [63:0] $end
+$var wire 1 u \input_1_64$EN $end
+$var wire 64 v \input_2_64$D_IN [63:0] $end
+$var wire 1 w \input_2_64$EN $end
+$var wire 1 x \mantissa_A$EN $end
+$var wire 1 y \mantissa_B$EN $end
+$var wire 1 z \mantissa_res_non_normalised$EN $end
+$var wire 1 { mantissa_res_non_normalised_6_BIT_0_7_AND_NOT__ETC___d342 $end
+$var wire 1 | mantissa_res_non_normalised_6_BIT_102_30_AND_N_ETC___d444 $end
+$var wire 1 } mantissa_res_non_normalised_6_BIT_12_0_AND_NOT_ETC___d354 $end
+$var wire 1 ~ mantissa_res_non_normalised_6_BIT_15_6_AND_NOT_ETC___d357 $end
+$var wire 1 !" mantissa_res_non_normalised_6_BIT_18_2_AND_NOT_ETC___d360 $end
+$var wire 1 "" mantissa_res_non_normalised_6_BIT_21_8_AND_NOT_ETC___d363 $end
+$var wire 1 #" mantissa_res_non_normalised_6_BIT_24_4_AND_NOT_ETC___d366 $end
+$var wire 1 $" mantissa_res_non_normalised_6_BIT_27_0_AND_NOT_ETC___d369 $end
+$var wire 1 %" mantissa_res_non_normalised_6_BIT_30_6_AND_NOT_ETC___d372 $end
+$var wire 1 &" mantissa_res_non_normalised_6_BIT_33_2_AND_NOT_ETC___d375 $end
+$var wire 1 '" mantissa_res_non_normalised_6_BIT_36_8_AND_NOT_ETC___d378 $end
+$var wire 1 (" mantissa_res_non_normalised_6_BIT_39_04_AND_NO_ETC___d381 $end
+$var wire 1 )" mantissa_res_non_normalised_6_BIT_3_2_AND_NOT__ETC___d345 $end
+$var wire 1 *" mantissa_res_non_normalised_6_BIT_42_10_AND_NO_ETC___d384 $end
+$var wire 1 +" mantissa_res_non_normalised_6_BIT_45_16_AND_NO_ETC___d387 $end
+$var wire 1 ," mantissa_res_non_normalised_6_BIT_48_22_AND_NO_ETC___d390 $end
+$var wire 1 -" mantissa_res_non_normalised_6_BIT_51_28_AND_NO_ETC___d393 $end
+$var wire 1 ." mantissa_res_non_normalised_6_BIT_54_34_AND_NO_ETC___d396 $end
+$var wire 1 /" mantissa_res_non_normalised_6_BIT_57_40_AND_NO_ETC___d399 $end
+$var wire 1 0" mantissa_res_non_normalised_6_BIT_60_46_AND_NO_ETC___d402 $end
+$var wire 1 1" mantissa_res_non_normalised_6_BIT_63_52_AND_NO_ETC___d405 $end
+$var wire 1 2" mantissa_res_non_normalised_6_BIT_66_58_AND_NO_ETC___d408 $end
+$var wire 1 3" mantissa_res_non_normalised_6_BIT_69_64_AND_NO_ETC___d411 $end
+$var wire 1 4" mantissa_res_non_normalised_6_BIT_6_8_AND_NOT__ETC___d348 $end
+$var wire 1 5" mantissa_res_non_normalised_6_BIT_72_70_AND_NO_ETC___d414 $end
+$var wire 1 6" mantissa_res_non_normalised_6_BIT_75_76_AND_NO_ETC___d417 $end
+$var wire 1 7" mantissa_res_non_normalised_6_BIT_78_82_AND_NO_ETC___d420 $end
+$var wire 1 8" mantissa_res_non_normalised_6_BIT_81_88_AND_NO_ETC___d423 $end
+$var wire 1 9" mantissa_res_non_normalised_6_BIT_84_94_AND_NO_ETC___d426 $end
+$var wire 1 :" mantissa_res_non_normalised_6_BIT_87_00_AND_NO_ETC___d429 $end
+$var wire 1 ;" mantissa_res_non_normalised_6_BIT_90_06_AND_NO_ETC___d432 $end
+$var wire 1 <" mantissa_res_non_normalised_6_BIT_93_12_AND_NO_ETC___d435 $end
+$var wire 1 =" mantissa_res_non_normalised_6_BIT_96_18_AND_NO_ETC___d438 $end
+$var wire 1 >" mantissa_res_non_normalised_6_BIT_99_24_AND_NO_ETC___d441 $end
+$var wire 1 ?" mantissa_res_non_normalised_6_BIT_9_4_AND_NOT__ETC___d351 $end
+$var wire 1 @" \mantissa_res_non_normalised_reduced$EN $end
+$var wire 52 A" \mantissa_res_normalised$D_IN [51:0] $end
+$var wire 1 B" \mantissa_res_normalised$EN $end
+$var wire 64 C" put_A_a_in [63:0] $end
+$var wire 64 D" put_B_b_in [63:0] $end
+$var wire 1 E" \sign_out$D_IN $end
+$var wire 1 F" \sign_out$EN $end
+$var wire 1 G" \stage1$D_IN $end
+$var wire 1 H" \stage1$EN $end
+$var wire 1 I" \stage2$D_IN $end
+$var wire 1 J" \stage2$EN $end
+$var wire 1 K" \stage3$D_IN $end
+$var wire 1 L" \stage3$EN $end
+$var wire 12 M" y__h830 [11:0] $end
+$var wire 12 N" x__h829 [11:0] $end
+$var wire 64 O" x__h6362 [63:0] $end
+$var wire 11 P" shif__h6137 [10:0] $end
+$var wire 52 Q" \mantissa_res_non_normalised_reduced$D_IN [51:0] $end
+$var wire 106 R" mantissa_res_non_normalised_SL_IF_mantissa_res_ETC__q1 [105:0] $end
+$var wire 106 S" \mantissa_res_non_normalised$D_IN [105:0] $end
+$var wire 52 T" \mantissa_B$D_IN [51:0] $end
+$var wire 52 U" \mantissa_A$D_IN [51:0] $end
+$var wire 12 V" \exponent_res_overbiased_1$D_IN [11:0] $end
+$var wire 11 W" \exponent_res_normalised_2$D_IN [10:0] $end
+$var wire 12 X" \exponent_res_normalised_1$D_IN [11:0] $end
+$var wire 64 Y" \answer$D_IN [63:0] $end
+$var wire 212 Z" _1_CONCAT_mantissa_A_9_0_MUL_1_CONCAT_mantissa__ETC___d23 [211:0] $end
+$var wire 1 3 RDY_put_B $end
+$var wire 1 4 RDY_put_A $end
+$var wire 11 [" IF_mantissa_res_non_normalised_6_BIT_98_22_AND_ETC___d562 [10:0] $end
+$var wire 32 \" IF_mantissa_res_non_normalised_6_BIT_98_22_AND_ETC___d453 [31:0] $end
+$var wire 11 ]" IF_mantissa_res_non_normalised_6_BIT_95_16_AND_ETC___d565 [10:0] $end
+$var wire 32 ^" IF_mantissa_res_non_normalised_6_BIT_95_16_AND_ETC___d456 [31:0] $end
+$var wire 11 _" IF_mantissa_res_non_normalised_6_BIT_92_10_AND_ETC___d568 [10:0] $end
+$var wire 32 `" IF_mantissa_res_non_normalised_6_BIT_92_10_AND_ETC___d459 [31:0] $end
+$var wire 11 a" IF_mantissa_res_non_normalised_6_BIT_8_2_AND_N_ETC___d652 [10:0] $end
+$var wire 32 b" IF_mantissa_res_non_normalised_6_BIT_8_2_AND_N_ETC___d543 [31:0] $end
+$var wire 11 c" IF_mantissa_res_non_normalised_6_BIT_89_04_AND_ETC___d571 [10:0] $end
+$var wire 32 d" IF_mantissa_res_non_normalised_6_BIT_89_04_AND_ETC___d462 [31:0] $end
+$var wire 11 e" IF_mantissa_res_non_normalised_6_BIT_86_98_AND_ETC___d574 [10:0] $end
+$var wire 32 f" IF_mantissa_res_non_normalised_6_BIT_86_98_AND_ETC___d465 [31:0] $end
+$var wire 11 g" IF_mantissa_res_non_normalised_6_BIT_83_92_AND_ETC___d577 [10:0] $end
+$var wire 32 h" IF_mantissa_res_non_normalised_6_BIT_83_92_AND_ETC___d468 [31:0] $end
+$var wire 11 i" IF_mantissa_res_non_normalised_6_BIT_80_86_AND_ETC___d580 [10:0] $end
+$var wire 32 j" IF_mantissa_res_non_normalised_6_BIT_80_86_AND_ETC___d471 [31:0] $end
+$var wire 11 k" IF_mantissa_res_non_normalised_6_BIT_77_80_AND_ETC___d583 [10:0] $end
+$var wire 32 l" IF_mantissa_res_non_normalised_6_BIT_77_80_AND_ETC___d474 [31:0] $end
+$var wire 11 m" IF_mantissa_res_non_normalised_6_BIT_74_74_AND_ETC___d586 [10:0] $end
+$var wire 32 n" IF_mantissa_res_non_normalised_6_BIT_74_74_AND_ETC___d477 [31:0] $end
+$var wire 11 o" IF_mantissa_res_non_normalised_6_BIT_71_68_AND_ETC___d589 [10:0] $end
+$var wire 32 p" IF_mantissa_res_non_normalised_6_BIT_71_68_AND_ETC___d480 [31:0] $end
+$var wire 11 q" IF_mantissa_res_non_normalised_6_BIT_68_62_AND_ETC___d592 [10:0] $end
+$var wire 32 r" IF_mantissa_res_non_normalised_6_BIT_68_62_AND_ETC___d483 [31:0] $end
+$var wire 11 s" IF_mantissa_res_non_normalised_6_BIT_65_56_AND_ETC___d595 [10:0] $end
+$var wire 32 t" IF_mantissa_res_non_normalised_6_BIT_65_56_AND_ETC___d486 [31:0] $end
+$var wire 11 u" IF_mantissa_res_non_normalised_6_BIT_62_50_AND_ETC___d598 [10:0] $end
+$var wire 32 v" IF_mantissa_res_non_normalised_6_BIT_62_50_AND_ETC___d489 [31:0] $end
+$var wire 11 w" IF_mantissa_res_non_normalised_6_BIT_5_6_AND_N_ETC___d655 [10:0] $end
+$var wire 32 x" IF_mantissa_res_non_normalised_6_BIT_5_6_AND_N_ETC___d546 [31:0] $end
+$var wire 11 y" IF_mantissa_res_non_normalised_6_BIT_59_44_AND_ETC___d601 [10:0] $end
+$var wire 32 z" IF_mantissa_res_non_normalised_6_BIT_59_44_AND_ETC___d492 [31:0] $end
+$var wire 11 {" IF_mantissa_res_non_normalised_6_BIT_56_38_AND_ETC___d604 [10:0] $end
+$var wire 32 |" IF_mantissa_res_non_normalised_6_BIT_56_38_AND_ETC___d495 [31:0] $end
+$var wire 11 }" IF_mantissa_res_non_normalised_6_BIT_53_32_AND_ETC___d607 [10:0] $end
+$var wire 32 ~" IF_mantissa_res_non_normalised_6_BIT_53_32_AND_ETC___d498 [31:0] $end
+$var wire 11 !# IF_mantissa_res_non_normalised_6_BIT_50_26_AND_ETC___d610 [10:0] $end
+$var wire 32 "# IF_mantissa_res_non_normalised_6_BIT_50_26_AND_ETC___d501 [31:0] $end
+$var wire 11 ## IF_mantissa_res_non_normalised_6_BIT_47_20_AND_ETC___d613 [10:0] $end
+$var wire 32 $# IF_mantissa_res_non_normalised_6_BIT_47_20_AND_ETC___d504 [31:0] $end
+$var wire 11 %# IF_mantissa_res_non_normalised_6_BIT_44_14_AND_ETC___d616 [10:0] $end
+$var wire 32 &# IF_mantissa_res_non_normalised_6_BIT_44_14_AND_ETC___d507 [31:0] $end
+$var wire 11 '# IF_mantissa_res_non_normalised_6_BIT_41_08_AND_ETC___d619 [10:0] $end
+$var wire 32 (# IF_mantissa_res_non_normalised_6_BIT_41_08_AND_ETC___d510 [31:0] $end
+$var wire 11 )# IF_mantissa_res_non_normalised_6_BIT_38_02_AND_ETC___d622 [10:0] $end
+$var wire 32 *# IF_mantissa_res_non_normalised_6_BIT_38_02_AND_ETC___d513 [31:0] $end
+$var wire 11 +# IF_mantissa_res_non_normalised_6_BIT_35_6_AND__ETC___d625 [10:0] $end
+$var wire 32 ,# IF_mantissa_res_non_normalised_6_BIT_35_6_AND__ETC___d516 [31:0] $end
+$var wire 11 -# IF_mantissa_res_non_normalised_6_BIT_32_0_AND__ETC___d628 [10:0] $end
+$var wire 32 .# IF_mantissa_res_non_normalised_6_BIT_32_0_AND__ETC___d519 [31:0] $end
+$var wire 11 /# IF_mantissa_res_non_normalised_6_BIT_2_0_AND_N_ETC___d658 [10:0] $end
+$var wire 32 0# IF_mantissa_res_non_normalised_6_BIT_2_0_AND_N_ETC___d549 [31:0] $end
+$var wire 11 1# IF_mantissa_res_non_normalised_6_BIT_29_4_AND__ETC___d631 [10:0] $end
+$var wire 32 2# IF_mantissa_res_non_normalised_6_BIT_29_4_AND__ETC___d522 [31:0] $end
+$var wire 11 3# IF_mantissa_res_non_normalised_6_BIT_26_8_AND__ETC___d634 [10:0] $end
+$var wire 32 4# IF_mantissa_res_non_normalised_6_BIT_26_8_AND__ETC___d525 [31:0] $end
+$var wire 11 5# IF_mantissa_res_non_normalised_6_BIT_23_2_AND__ETC___d637 [10:0] $end
+$var wire 32 6# IF_mantissa_res_non_normalised_6_BIT_23_2_AND__ETC___d528 [31:0] $end
+$var wire 11 7# IF_mantissa_res_non_normalised_6_BIT_20_6_AND__ETC___d640 [10:0] $end
+$var wire 32 8# IF_mantissa_res_non_normalised_6_BIT_20_6_AND__ETC___d531 [31:0] $end
+$var wire 11 9# IF_mantissa_res_non_normalised_6_BIT_17_0_AND__ETC___d643 [10:0] $end
+$var wire 32 :# IF_mantissa_res_non_normalised_6_BIT_17_0_AND__ETC___d534 [31:0] $end
+$var wire 11 ;# IF_mantissa_res_non_normalised_6_BIT_14_4_AND__ETC___d646 [10:0] $end
+$var wire 32 <# IF_mantissa_res_non_normalised_6_BIT_14_4_AND__ETC___d537 [31:0] $end
+$var wire 11 =# IF_mantissa_res_non_normalised_6_BIT_11_8_AND__ETC___d649 [10:0] $end
+$var wire 32 ># IF_mantissa_res_non_normalised_6_BIT_11_8_AND__ETC___d540 [31:0] $end
+$var wire 11 ?# IF_mantissa_res_non_normalised_6_BIT_101_28_AN_ETC___d559 [10:0] $end
+$var wire 32 @# IF_mantissa_res_non_normalised_6_BIT_101_28_AN_ETC___d450 [31:0] $end
+$var wire 1 A# CAN_FIRE_put_B $end
+$var wire 1 B# CAN_FIRE_put_A $end
+$var reg 64 C# answer [63:0] $end
+$var reg 12 D# exponent_res_normalised_1 [11:0] $end
+$var reg 11 E# exponent_res_normalised_2 [10:0] $end
+$var reg 11 F# exponent_res_normalised_3 [10:0] $end
+$var reg 12 G# exponent_res_overbiased_1 [11:0] $end
+$var reg 12 H# exponent_res_overbiased_2 [11:0] $end
+$var reg 1 I# got_A $end
+$var reg 1 J# got_B $end
+$var reg 1 K# got_final $end
+$var reg 64 L# input_1_64 [63:0] $end
+$var reg 64 M# input_2_64 [63:0] $end
+$var reg 52 N# mantissa_A [51:0] $end
+$var reg 52 O# mantissa_B [51:0] $end
+$var reg 106 P# mantissa_res_non_normalised [105:0] $end
+$var reg 52 Q# mantissa_res_non_normalised_reduced [51:0] $end
+$var reg 52 R# mantissa_res_normalised [51:0] $end
+$var reg 1 S# sign_out $end
+$var reg 1 T# stage1 $end
+$var reg 1 U# stage2 $end
+$var reg 1 V# stage3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0V#
+0U#
+0T#
+0S#
+b1010101010101010101010101010101010101010101010101010 R#
+b1010101010101010101010101010101010101010101010101010 Q#
+b1010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010 P#
+b1010101010101010101010101010101010101010101010101010 O#
+b1010101010101010101010101010101010101010101010101010 N#
+b1010101010101010101010101010101010101010101010101010101010101010 M#
+b1010101010101010101010101010101010101010101010101010101010101010 L#
+0K#
+0J#
+0I#
+b101010101010 H#
+b101010101010 G#
+b1010101010 F#
+b1010101010 E#
+b101010101010 D#
+b1010101010101010101010101010101010101010101010101010101010101010 C#
+1B#
+1A#
+b1 @#
+b11111111111 ?#
+b1 >#
+b11111111111 =#
+b1 <#
+b11111111111 ;#
+b1 :#
+b11111111111 9#
+b1 8#
+b11111111111 7#
+b1 6#
+b11111111111 5#
+b1 4#
+b11111111111 3#
+b1 2#
+b11111111111 1#
+b1 0#
+b11111111111 /#
+b1 .#
+b11111111111 -#
+b1 ,#
+b11111111111 +#
+b1 *#
+b11111111111 )#
+b1 (#
+b11111111111 '#
+b1 &#
+b11111111111 %#
+b1 $#
+b11111111111 ##
+b1 "#
+b11111111111 !#
+b1 ~"
+b11111111111 }"
+b1 |"
+b11111111111 {"
+b1 z"
+b11111111111 y"
+b1 x"
+b11111111111 w"
+b1 v"
+b11111111111 u"
+b1 t"
+b11111111111 s"
+b1 r"
+b11111111111 q"
+b1 p"
+b11111111111 o"
+b1 n"
+b11111111111 m"
+b1 l"
+b11111111111 k"
+b1 j"
+b11111111111 i"
+b1 h"
+b11111111111 g"
+b1 f"
+b11111111111 e"
+b1 d"
+b11111111111 c"
+b1 b"
+b11111111111 a"
+b1 `"
+b11111111111 _"
+b1 ^"
+b11111111111 ]"
+b1 \"
+b11111111111 ["
+b1011000111000111000111000111000111000111000111000110100011100011100011100011100011100011100011100011100100 Z"
+b10101010101010101010101010101010101010101010101010101010101010 Y"
+b11010101011 X"
+b1010101011 W"
+b10101010100 V"
+b1010101010101010101010101010101010101010101010101010 U"
+b1010101010101010101010101010101010101010101010101010 T"
+b1011000111000111000111000111000111000111000111000110100011100011100011100011100011100011100011100011100100 S"
+b101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100 R"
+b101010101010101010101010101010101010101010101010101 Q"
+b11111111111 P"
+b10101010101010101010101010101010101010101010101010101010101010 O"
+b1010101010 N"
+b1010101010 M"
+0L"
+1K"
+0J"
+1I"
+0H"
+1G"
+0F"
+0E"
+b1100000000001100101101111111100011001010100000011001100011110010 D"
+b1100000010010101010110101111001110110110010001011010000111001011 C"
+0B"
+b0 A"
+0@"
+0?"
+0>"
+0="
+0<"
+0;"
+0:"
+09"
+08"
+07"
+06"
+05"
+04"
+03"
+02"
+01"
+00"
+0/"
+0."
+0-"
+0,"
+0+"
+0*"
+0)"
+0("
+0'"
+0&"
+0%"
+0$"
+0#"
+0""
+0!"
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+1w
+b1100000000001100101101111111100011001010100000011001100011110010 v
+1u
+b1100000010010101010110101111001110110110010001011010000111001011 t
+0s
+1r
+1q
+1p
+1o
+1n
+b1010101010101010101010101010101010101010101010101010101010101010 m
+0l
+b0 k
+0j
+0i
+b0 h
+0g
+0f
+0e
+1d
+1c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+bx 6
+05
+14
+13
+b1010101010101010101010101010101010101010101010101010101010101010 2
+b1100000000001100101101111111100011001010100000011001100011110010 1
+b1100000010010101010110101111001110110110010001011010000111001011 0
+1/
+1.
+0-
+1,
+0+
+1*
+0)
+b110010001110101011011010111000000101110011101100110001101100100 (
+1'
+0&
+0%
+0$
+b0 #
+0"
+x!
+$end
+#1
+b11111111111 P"
+b1 0#
+b11111111111 /#
+b1 x"
+b11111111111 w"
+b1 b"
+b11111111111 a"
+b1 >#
+b11111111111 =#
+b1 <#
+b11111111111 ;#
+b1 :#
+b11111111111 9#
+b1 8#
+b11111111111 7#
+b1 6#
+b11111111111 5#
+b1 4#
+b11111111111 3#
+b1 2#
+b11111111111 1#
+b1 .#
+b11111111111 -#
+b1 ,#
+b11111111111 +#
+b1 *#
+b11111111111 )#
+b1 (#
+b11111111111 '#
+b1 &#
+b11111111111 %#
+b1 $#
+b11111111111 ##
+b1 "#
+b11111111111 !#
+b1 ~"
+b11111111111 }"
+b1 |"
+b11111111111 {"
+b1 z"
+b11111111111 y"
+b1 v"
+b11111111111 u"
+b1 t"
+b11111111111 s"
+b1 r"
+b11111111111 q"
+1G
+1R
+b1 p"
+b11111111111 o"
+1]
+1=
+1>
+b1 n"
+b11111111111 m"
+1?
+1@
+1A
+b1 l"
+b11111111111 k"
+1B
+1C
+1D
+b1 j"
+b11111111111 i"
+1E
+1F
+1H
+b1 h"
+b11111111111 g"
+1I
+1J
+1K
+b1 f"
+b11111111111 e"
+1L
+1M
+1N
+b1 d"
+b11111111111 c"
+1O
+1P
+1Q
+b1 `"
+b11111111111 _"
+1S
+1T
+1U
+b1 ^"
+b11111111111 ]"
+1V
+1W
+1X
+b1 \"
+b11111111111 ["
+1Y
+1Z
+1[
+b1 @#
+b11111111111 ?#
+1\
+1<
+b0 Q"
+b100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 S"
+b0 T"
+b0 M"
+b0 U"
+b0 V"
+b0 N"
+b0 Y"
+b1 W"
+1r
+b0 R#
+b0 Q#
+b0 R"
+b0 P#
+b0 O#
+b100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 Z"
+b0 N#
+b0 M#
+b0 L#
+b0 H#
+b110000000001 X"
+b0 G#
+b0 F#
+b0 O"
+b0 E#
+b0 D#
+b0 2
+b0 m
+b0 C#
+1!
+b1 #
+#2
+1"
+#5
+0!
+#10
+0r
+b1100101101111111100011001010100000011001100011110010 T"
+b10000000000 M"
+b101010110101111001110110110010001011010000111001011 U"
+b100000001001 V"
+b10000001001 N"
+0,
+0c
+0o
+0u
+0.
+0d
+0q
+0w
+0/
+0*
+1a
+1j
+1x
+1y
+1F"
+1H"
+1:
+b1100000000001100101101111111100011001010100000011001100011110010 M#
+b1100000010010101010110101111001110110110010001011010000111001011 L#
+03
+0A#
+1J#
+04
+0B#
+1I#
+1!
+#11
+b10 #
+#15
+0!
+#20
+b1001100101010010110110110100100111100101011111000100100011010100110000010001011011001011100111100111100110 S"
+1J"
+1z
+1f
+1^
+17
+1T#
+b1100101101111111100011001010100000011001100011110010 O#
+b1001100101010010110110110100100111100101011111000100100011010100110000010001011011001011100111100111100110 Z"
+b101010110101111001110110110010001011010000111001011 N#
+b10000001010 X"
+b100000001001 G#
+1!
+#21
+b11 #
+#25
+0!
+#30
+b1 ,#
+b11111111111 +#
+b1 $#
+b11111111111 ##
+b1 `"
+b11111111111 _"
+b1 6#
+b11111111111 5#
+b1 4#
+b11111111111 3#
+b1 .#
+b11111111111 -#
+b1 *#
+b11111111111 )#
+b1 "#
+b11111111111 !#
+b1 z"
+b11111111111 y"
+b1 t"
+b11111111111 s"
+b1 ^"
+b11111111111 ]"
+b1 8#
+b11111111111 7#
+b1 2#
+b11111111111 1#
+b11111111111 P"
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0I
+0J
+0M
+0O
+0Y
+0Z
+0""
+0%"
+b1 >#
+b11111111111 =#
+b1 <#
+b11111111111 ;#
+b1 :#
+b11111111111 9#
+b1 0#
+b11111111111 /#
+b1 (#
+b11111111111 '#
+b1 &#
+b11111111111 %#
+b1 ~"
+b11111111111 }"
+b1 |"
+b11111111111 {"
+b1 x"
+b11111111111 w"
+b1 v"
+b11111111111 u"
+b1 r"
+b11111111111 q"
+b1 p"
+b11111111111 o"
+b1 n"
+b11111111111 m"
+b1 l"
+b11111111111 k"
+b1 j"
+b11111111111 i"
+b1 h"
+b11111111111 g"
+b1 f"
+b11111111111 e"
+b1 d"
+b11111111111 c"
+b1 b"
+b11111111111 a"
+b1 \"
+b11111111111 ["
+0=
+0>
+0F
+0G
+0H
+0K
+0L
+0N
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0[
+0\
+0]
+0<
+b11001010100101101101101001001111001010111110001001 Q"
+b10000001011 W"
+1L"
+1@"
+1g
+1`
+19
+1U#
+b11001010100101101101101001001111001010111110001001000110101001100000100010110110010111001111001111001100 R"
+b1001100101010010110110110100100111100101011111000100100011010100110000010001011011001011100111100111100110 P#
+b10000001010 D#
+1!
+#31
+b100 #
+#35
+0!
+#40
+b100000010110011001010100101101101101001001111001010111110001001 Y"
+1s
+1e
+1_
+18
+1V#
+b11001010100101101101101001001111001010111110001001 Q#
+b100000010110011001010100101101101101001001111001010111110001001 O"
+b10000001011 E#
+1!
+#41
+b101 #
+#45
+0!
+#50
+1r
+b100000010110011001010100101101101101001001111001010111110001001 2
+b100000010110011001010100101101101101001001111001010111110001001 m
+b100000010110011001010100101101101101001001111001010111110001001 C#
+1!
+#51
+b110 #
+#55
+0!
+#60
+1;
+1b
+1-
+1+
+1)
+15
+1K#
+1!
+#61
+b111 #
+#65
+b1000001 6
+0!
