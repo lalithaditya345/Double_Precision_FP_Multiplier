@@ -32,13 +32,13 @@ Runs the executable file and the output is displayed
 make simulate
 ```
 ### VERILOG
-Using a verilog simulator, you can follow these commands
+To use a verilog simulator, you can follow these commands
 ```console
 make verilog
 make v_link
 make v_simulate
 ```
-These verilog files are then synthesized.
+These generated verilog files are then synthesized.
 ## Verification
 
 ## Usage
