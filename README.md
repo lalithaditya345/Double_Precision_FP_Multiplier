@@ -12,10 +12,26 @@ Mantissa part: M = M_1*M_2
 **Post-normalize:** The result (both exponent and mantissa) will be normalized if possible and then transformed into the format specified by the IEEE standard.   
 ## Tools
 
-There is a **Makefile** in the same directory as the code. By making necessary changes in the file, you can invoke the commands  
+There is a **Makefile** in the same directory as the code. By making necessary changes in the file, you can invoke the following commands  
+### COMPILE
+
+Compiles the bsv file and creates a seperate module **build_bsim**
 ```console
 make compile
 ```
+### LINK
+
+Links for bluesim simulator and creates a executable file **mkTestbench_bsim**
+```console
+make link
+```
+### SIMULATE
+
+Runs the executable file and the output is displayed
+```console
+make simulate
+```
+
 ## Verification
 
 ## Usage
