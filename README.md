@@ -31,7 +31,13 @@ Runs the executable file and the output is displayed
 ```console
 make simulate
 ```
-
+### VERILOG
+Using a verilog simulator, you can follow these commands
+```console
+make verilog
+make v_link
+make v_simulate
+```
 These verilog files are then synthesized.
 ## Verification
 
