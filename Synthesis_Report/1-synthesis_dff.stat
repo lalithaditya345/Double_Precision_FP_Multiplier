@@ -1,0 +1,25 @@
+
+53. Printing statistics.
+
+=== mkFPMul64 ===
+
+   Number of wires:              20709
+   Number of wire bits:          21723
+   Number of public wires:          36
+   Number of public wire bits:    1050
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              21428
+     $_ANDNOT_                    5553
+     $_AND_                       2765
+     $_MUX_                       1573
+     $_NAND_                       906
+     $_NOR_                        823
+     $_NOT_                        283
+     $_ORNOT_                      249
+     $_OR_                        3006
+     $_XNOR_                      1897
+     $_XOR_                       3879
+     sky130_fd_sc_hd__dfxtp_2      494
+

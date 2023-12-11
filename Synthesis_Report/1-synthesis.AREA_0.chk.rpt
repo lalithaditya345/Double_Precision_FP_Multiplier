@@ -1,0 +1,71 @@
+
+60. Executing CHECK pass (checking for obvious problems).
+Checking module mkFPMul64...
+Warning: Wire mkFPMul64.\get_res [63] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [62] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [61] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [60] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [59] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [58] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [57] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [56] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [55] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [54] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [53] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [52] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [51] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [50] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [49] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [48] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [47] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [46] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [45] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [44] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [43] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [42] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [41] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [40] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [39] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [38] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [37] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [36] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [35] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [34] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [33] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [32] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [31] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [30] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [29] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [28] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [27] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [26] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [25] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [24] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [23] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [22] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [21] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [20] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [19] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [18] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [17] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [16] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [15] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [14] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [13] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [12] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [11] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [10] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [9] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [8] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [7] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [6] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [5] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [4] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [3] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [2] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [1] is used but has no driver.
+Warning: Wire mkFPMul64.\get_res [0] is used but has no driver.
+Warning: Wire mkFPMul64.\RDY_put_B is used but has no driver.
+Warning: Wire mkFPMul64.\RDY_put_A is used but has no driver.
+Warning: Wire mkFPMul64.\RDY_get_res is used but has no driver.
+Found and reported 67 problems.

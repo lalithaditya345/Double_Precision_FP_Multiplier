@@ -1,0 +1,19 @@
+Design Name: mkFPMul64
+Run Directory: /openlane/designs/mkFPMul64/runs/RUN_2023.12.10_07.51.58
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/mkFPMul64/runs/RUN_2023.12.10_07.51.58/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/mkFPMul64/runs/RUN_2023.12.10_07.51.58/logs/signoff/41-mkFPMul64.lef.lvs.log
+Number of nets: 19776                      |Number of nets: 19776                      
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/mkFPMul64/runs/RUN_2023.12.10_07.51.58/logs/signoff/43-arc.log
+Pin violations: 84
+Net violations: 77
