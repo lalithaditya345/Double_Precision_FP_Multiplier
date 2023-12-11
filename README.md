@@ -1,8 +1,8 @@
 # Pipelined Double Precision (fp64) Floating Point Multiplier
 ## Project Structure  
-This github repository contains the source code for **Pipelined Double Precision Floating Point Multiplier** written in Bluespec system verilog. Given below is the description of files:  
-**FPMul64.bsv**: Main design file for the pipelined double-precision floating-point Multiplier.  
-**Testbench.bsv:** Test bench file for validating the functionality of the adder.
+This github repository contains the source code for **Pipelined Double Precision Floating Point Multiplier** written in Bluespec system verilog. Given below is the description of files:<br />
+* **FPMul64.bsv**: Main design file for the pipelined double-precision floating-point Multiplier.<br />
+* **Testbench.bsv:** Test bench file for validating the functionality of the adder.<br />
 ## Design
 
 In this design, the floating point multiplier is designed using pipelining so the throughput of operation can be increased.<br /> The highlevel outline of the code looks like this.<br />
@@ -42,8 +42,20 @@ make v_link
 make v_simulate
 ```
 These generated verilog files are then synthesized.
-## Verification
+## Openlane Results
+### Synthesis
+=== mkFPMul64 === <br />
 
-## Usage
+ Number of wires:              19193<br />
+ Number of wire bits:          19382<br />
+ Number of public wires:         441<br />
+ Number of public wire bits:     630<br />
+ Number of memories:               0<br />
+ Number of memory bits:            0<br />
+ Number of processes:              0<br />
+ Number of cells:              19249<br />
+Chip area for module '\mkFPMul64': 181470.294400(in um^2)<br />
 
-## Testing
+### Floorplan
+Initial Floorplan core area : **5.52 10.88 607.66 612.0** <br />
+Initial Floorplan die area : **0.0 0.0 613.485 624.205** <br />
