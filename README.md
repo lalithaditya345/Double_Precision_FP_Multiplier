@@ -1,7 +1,7 @@
 # Pipelined Double Precision (fp64) Floating Point Multiplier
 ## Project Structure  
 This github repository contains the source code for **Pipelined Double Precision Floating Point Multiplier** written in Bluespec system verilog. Given below is the description of files:  
-**FPMul64.bsv**: Main design file for the pipelined double-precision floating-point adder.
+**FPMul64.bsv**: Main design file for the pipelined double-precision floating-point Multiplier.  
 **Testbench.bsv:** Test bench file for validating the functionality of the adder.
 ## Design
 
